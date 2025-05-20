@@ -52,7 +52,7 @@ public class MainClass{
             System.out.println("Enter number of transactions");
             transactionCount=scanner.nextInt();
             for(int i=0;i<transactionCount;i++){
-                System.out.println("Enter Details for transaction "+i);
+                System.out.println("Enter Details for transaction "+(i+1));
                 System.out.println("Enter transaction type: Income/Expense");
                 transactionType=scanner.next();
 
